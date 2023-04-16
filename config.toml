@@ -1,0 +1,17 @@
+[http]
+host = "localhost"
+port = 8088
+
+[db]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "root"
+charset = "utf8mb4"
+data_base = "into"
+echo = false
+pool_size = 10
+max_conn = 20
+pool_recycle = -1
+time_zone = "Asia/Shanghai"
+is_postgres = false
